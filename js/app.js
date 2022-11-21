@@ -1,24 +1,4 @@
-/* Pasos para realizar el juego
-1. Preguntar si quiere jugar
-===========si quiere jugar==========
-2. Explicarle las reglas del juego, decirle que tiene 3 vidas
-3.generar las 3 vidas
-4. Generar el numero aleatorio
-5. Decirle que ingrese un numero
-    ===============si acerto===============
-    6. Decirle 'Muy bien! Ganaste el juego'
-    ===============si no acerto===============
-    6. Darle pistas y restarle una vida
-        ================si el numero era mayor=================
-        7. Decirle que era mayor
-        ================si el numero era menor=================
-        7. decirle que era menor
-    8. Decirle cuantas vidas tiene y que ingrese un nuevo numero
-    9. Repetir desde paso 5 hasta que vida<0
-    10. Cuando vida===0, decirle que perdio el juego
-===========si no quiere jugar==========
-2. Despedirlo
-*/
+
 
 let respuesta = confirm("Quieres jugar?"); //Preguntar si quiere jugar
 if (respuesta === false) {//si no quiere jugar==========
